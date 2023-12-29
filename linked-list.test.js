@@ -1,4 +1,4 @@
-const LinkedList = require("./linked-list");
+import LinkedList from "./linked-list.js";
 
 describe("push", function() {
   it("appends node and increments length", function() {
